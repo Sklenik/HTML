@@ -5,7 +5,7 @@
     <title>My Cool Webpage</title>
 </head>
 
-<body style="background-color: blanchedalmond;">
+<body style="background-color: blanchedalmond; font-family: Arial;">
     <div>
         <h1>H1 Heading </h1>
         <h2>H2 Heading</h2>
@@ -19,7 +19,7 @@
 
         <a href="https://www.seznam.cz">This is a link</a>
 
-        <p style="color: blue; font-family: Arial;">This is a blue paragraph with arial font</p>
+        <p style="color: blue; font-family:Impact;">This is a blue paragraph with Impact font</p>
         <p title="This is the tooltip">This is a paragraph with a tooltip</p>
 
         <p>I love minecraft</p>
@@ -115,6 +115,8 @@
     </div>
 
     <hr>
+    <h3 style="font-family: Impact; text-align: center;">SAUL GOODMAN 3D</h3>
+    <hr>
 
     <div>
         <h1>This section contains somewhat formatted text.</h1>
@@ -127,6 +129,105 @@
         <p>This text contains a <mark>marked</mark> word.</p>
         <p><del>This word</del> is marked as deleted. Text in deleted tags is usualy rendered as strikethrough text.</p>
         <p><ins>This word</ins> is marked as inserted. Inserted text is usualy rendered underlined.</p>
+        <p>Here we have some subscript (H<sub>2</sub>O) and superscript (x<sup>2</sup>) text</p>
+    </div>
+
+    <hr>
+
+    <div>
+        <h1> This section is about quotation and citation</h1>
+
+        <p>This text contains some quoted text
+        <blockquote>
+            This text is in blockquote element, so its quoted like this. Lorem ipsum yady yada.
+        </blockquote>
+        </p>
+
+        <p><q>This text is in quotation marks.</q></p>
+
+        <p>This text contains an abbreviation. Abbreviations give useful information to browser, translation systems and
+            search engines. I stole this sentence from wschools. <br>
+            Anyways, here's the abbreviation : <abbr title="Better Call Saul">BCS</abbr>
+        </p>
+
+        <img src="img/SaulGoodmanGif.gif" alt="Saul Goodman 3D">
+
+        <p>The following text is rendered as an address. The adress tags defines info about author/owner of specific
+            articles or documents on the site, but it's not limited to that. <br>
+            Browser will render the adress in italic and a line break will be added before and after the element.
+        </p>
+
+        <address>
+            Written by John Doe <br>
+            Visit us at : <br>
+            Walter White <br>
+            3828 Piermont Dr <br>
+            Albuquerque, NM <br>
+            USA <br>
+        </address>
+
+        <p><cite>This word</cite> is in cite tags. Cite tags are used to specify the title of a creative work or so.
+            Anything you can possibly think of. Like a movie, song, sculture, poem, etc.</p>
+
+        <bdo dir="rtl">This text is written in the opposite direction</bdo>
+
+        <!-- This is a comment that does not render in the browser. Anything can be hidden in there. -->
+        <!--
+            this
+            is
+            a
+            multiline
+            omment 
+        -->
+
+    </div>
+
+    <hr>
+
+    <div>
+        <h1>
+            This section is about
+            <font style="color: tomato;">C</font>
+            <font style="color: dodgerblue;">O</font>
+            <font style="color: mediumseagreen;">L</font>
+            <font style="color: slateblue;">O</font>
+            <font style="color: orange;">R</font>
+            <font style="color: turquoise;">S</font>
+        </h1>
+
+        <p style="color: blue;">Blue text</p>
+        <p style="border-color: aquamarine;">Aquamarine border</p>
+        <p style="background-color: rgba(255, 99, 71, 0.5);">This text uses rgba to specify color and transparency. hsla
+            can also be used, where percentage and integer specify the colors.
+        </p>
+    </div>
+
+    <div>
+        <h1>So, here are some rgb experiments. I stole these exact values from w3schools.</h1>
+        <h1 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0)</h1>
+        <h1 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h1>
+        <h1 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</h1>
+        <h1 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238)</h1>
+        <h1 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h1>
+        <h1 style="background-color:rgb(106, 90, 205);">rgb(106, 90, 205)</h1>
+        <h4> Everything can be specifie by hex values of course, this is just something I wanted to have here.</h4>
+    </div>
+
+    <div>
+        <p>hsl and hsla can also be used.</p>
+        <p>hsl = hue(0-360), saturation(0-100%), lightness(0-100%)</p>
+        <p>so basically hsl(hue, saturation, lightness)</p>
+        <p style="background-color: hsl(167, 77%, 39%);">This text has background with hsl(167, 77%, 39%)</p>
+        <p>hsla = hsl but with Alpha channel (opacity, defined in percent from 0 to 100)</p>
+    </div>
+
+    <hr>
+
+    <div style="text-align: center;">
+        <h1>This file started to become so flooded with things I had to start a new one to be able to focus.</h1>
+        <p>So this is it for this file. <br><q>Adieu</q></p>
+        <p>Click the cursed meme to get to the next page.</p>
+        <a href="stuff2.html"><img src="img/I will hack your refridgerator.gif" alt="fridge"></a>
     </div>
 </body>
 
