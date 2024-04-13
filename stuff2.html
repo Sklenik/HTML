@@ -3,25 +3,63 @@
 
 <head>
     <title>Another cool webpage</title>
+
+    <!-- This is internal CSS. More widely and more often used 
+        is external css where a .css fle is linked 
+        to the html document using the <link> element -->
+    <style>
+        body {
+            background-color: wheat;
+            font-family: Arial
+        }
+
+        .magicBorder {
+            border: solid 7px;
+            border-color: black;
+            padding: 20px;
+            margin: 50px;
+            border-radius: 10px;
+        }
+
+        .spongebob {
+            border: solid 5px;
+            border-color: black;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .cavemanspongebob {
+            text-align: center;
+            background-image: url(img/NicePng_spongegar-png_248535.png);
+            background-size: 100px 100px;
+            padding: 40px;
+        }
+    </style>
 </head>
 
-<body style="background-color: wheat;font-family: Arial;">
+<body>
 
+    <!-- This is inline CSS -->
     <div style="text-align: center;">
         <h1>Click the chinese spongebob to get to the previous page</h1>
-        <a href="stuff.html"><img src="img/ChingChengSpongeboi.jpg" alt="ChingChengSpongeboi"></a>
+        <a href="stuff.html"><img class="spongebob" src="img/ChingChengSpongeboi.jpg" alt="ChingChengSpongeboi"></a>
     </div>
 
     <hr>
 
-    <div style="text-align: center;background-image: url(img/SaulGoodmanGif.gif);">
-        <h1 style="color: yellow;">Here goes stuff 2 !</h1>
+    <div class="cavemanspongebob">
+        <h1>Here goes stuff 2 !</h1>
     </div>
 
     <hr>
 
     <div>
+        <h1>This will be a mini CSS tutorial</h1>
 
+        <p class="magicBorder">This text has a very magical border. It also has a margin of 50 px. I used class
+            attribute to make it easier for
+            handling the border.</p>
     </div>
 </body>
 
